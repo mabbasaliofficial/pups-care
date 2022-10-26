@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-  background-color: rgb(249, 223, 223);
+  background-color: #E5E4E2;
 }
 .img-container {
   display: flex;
@@ -17,10 +17,10 @@
   padding: 5%;
   width: 90%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .text-container h2 {
-  color: orange;
+  color: coral;
   font-weight: bolder;
 }
 .text-container h2,
@@ -32,29 +32,35 @@ p {
   padding: 5%;
   width: 90%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
 }
 .btn-primary {
+  color: coral;
   width: 200px;
   height: 200px;
   border-radius: 100px;
   border: none;
-  background-color: rgb(244, 244, 244);
+  background-color: #E5E4E2;
 }
 .btn-secondary {
   width: 200px;
+  color: #ffffff;
   height: 200px;
   border-radius: 100px;
   border: none;
-  background-color: orange;
+  background-color: coral;
 }
 .bundle-container {
   padding-top: 5%;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0 auto;
   width: 90%;
+}
+.bundle-container h2{
+  color: coral;
+  font-weight: bolder;
 }
 .bundle-container h2,
 p {
@@ -79,10 +85,10 @@ p {
   margin: 0 auto;
   padding-top: 15%;
   padding-bottom: 15%;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .btn-bundle {
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.5rem;
   display: block;
@@ -102,7 +108,7 @@ p {
     padding: 5%;
     width: 90%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,18 +120,18 @@ p {
     border-radius: 100px;
     margin: 10px;
     border: none;
-    background-color: rgb(244, 244, 244);
+    background-color: #E5E4E2;
   }
   .btn-secondary {
     width: 200px;
     height: 200px;
     border-radius: 100px;
     border: none;
-    background-color: orange;
+    background-color: coral;
   }
   .bundle-container {
     padding-top: 5%;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 5%;
     margin: 0 auto;
     width: 90%;
@@ -142,7 +148,7 @@ p {
     font-weight: 500;
   }
   .btn-bundle {
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
     font-size: 1rem;
     display: block;
