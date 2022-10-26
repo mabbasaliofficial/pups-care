@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(249, 223, 223);
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+.img-container img {
+  width: 30%;
+}
+.text-container {
+  padding: 5%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.text-container h2 {
+  color: orange;
+  font-weight: bolder;
+}
+.text-container h2,
+p {
+  margin-top: 25px;
+  text-align: center;
+}
+.btn-container {
+  padding: 5%;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-primary {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(244, 244, 244);
+}
+.btn-secondary {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border: none;
+  background-color: orange;
+}
+.bundle-container {
+  padding-top: 5%;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 90%;
+}
+.bundle-container h2,
+p {
+  text-align: center;
+}
+.bundle-pakage {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+.bundle-pakage img {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.bundle-pakage p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.btn-end {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-color: #fff;
+}
+.btn-bundle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  width: 40%;
+  background-color: coral;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 576px) {
+  .btn-container {
+    padding: 5%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-primary {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(244, 244, 244);
+  }
+  .btn-secondary {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: none;
+    background-color: orange;
+  }
+  .bundle-container {
+    padding-top: 5%;
+    background-color: #fff;
+    padding: 5%;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .bundle-pakage {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bundle-pakage p {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .btn-bundle {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    width: 90%;
+    background-color: coral;
+    border-radius: 5px;
+    justify-content: center;
+  }
+}
